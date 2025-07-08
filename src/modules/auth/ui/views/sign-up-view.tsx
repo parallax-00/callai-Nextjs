@@ -248,7 +248,7 @@ export const SignUpView = () => {
             </form>
           </Form>
           {/* //!Logo */}
-          <div className="bg-radial from-[#233d4d] to-[#fe7f2d] relative hidden md:flex flex-col justify-center items-center">
+          <div className="bg-radial from-sidebar-accent to-sidebar relative hidden md:flex flex-col justify-center items-center">
             <Image src="/logo.svg" width={92} height={92} alt="Logo" />
             <p className="text-2xl font-semibold text-white">Call of AI</p>
           </div>
