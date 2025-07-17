@@ -13,7 +13,7 @@ import AgentsListHeader from "@/modules/agents/ui/components/agentsListHeader";
 
 import { auth } from "@/lib/auth";
 import { headers } from "next/headers";
-import { redirect } from "next/dist/server/api-utils";
+import { redirect } from "next/navigation";
 
 const page = async () => {
   const session = await auth.api.getSession({
