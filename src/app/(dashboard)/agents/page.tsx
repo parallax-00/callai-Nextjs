@@ -24,6 +24,7 @@ interface ISearchParams {
 
 const page = async ({ searchParams }: ISearchParams) => {
   const filters = await loadSearchParams(searchParams);
+
   const session = await auth.api.getSession({
     headers: await headers(),
   });
