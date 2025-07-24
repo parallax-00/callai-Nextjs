@@ -10,7 +10,7 @@ import { useTRPC } from "@/trpc/client";
 import { LoadingState } from "@/components/loadingState";
 import { ErrorState } from "@/components/errorState";
 
-import { DataTable } from "../components/dataTable";
+import { DataTable } from "@/components/dataTable";
 
 import { useRouter } from "next/navigation";
 
