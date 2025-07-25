@@ -38,7 +38,7 @@ const MeetingIdView = ({ meetingId }: IMeetingIdView) => {
     trpc.meetings.remove.mutationOptions({
       onSuccess: () => {
         queryClient.invalidateQueries(trpc.meetings.getMany.queryOptions({}));
-        router.push("/meeings");
+        router.push("/meetings");
       },
       onError: (error) => {
         toast.error(error.message);

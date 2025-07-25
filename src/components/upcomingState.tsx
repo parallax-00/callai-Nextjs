@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { VideoIcon, BanIcon } from "lucide-react";
 
-import Image from "next/image";
 import { Button } from "./ui/button";
 import { EmptyState } from "./emptyState";
 
