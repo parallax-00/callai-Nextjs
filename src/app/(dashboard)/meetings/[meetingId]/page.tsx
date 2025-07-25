@@ -1,12 +1,8 @@
 import { auth } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { headers } from "next/headers";
-import {
-  dehydrate,
-  HydrationBoundary,
-  useQueryClient,
-} from "@tanstack/react-query";
-import { trpc } from "@/trpc/server";
+import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
+import { getQueryClient, trpc } from "@/trpc/server";
 import { Suspense } from "react";
 
 import { ErrorBoundary } from "react-error-boundary";
@@ -23,7 +19,7 @@ interface IPage {
 
 const Page = async ({ params }: IPage) => {
   const { meetingId } = await params;
-  const queryClient = useQueryClient();
+  const queryClient = getQueryClient();
 
   const session = await auth.api.getSession({
     headers: await headers(),
