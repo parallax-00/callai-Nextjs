@@ -1,3 +1,4 @@
+"use client";
 import { ChevronDownIcon, CreditCardIcon, LogOutIcon } from "lucide-react";
 
 import { authClient } from "@/lib/auth-client";

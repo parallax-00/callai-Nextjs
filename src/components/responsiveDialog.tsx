@@ -1,4 +1,4 @@
-"use Client";
+// "use Client";
 
 import { useIsMobile } from "@/hooks/use-mobile";
 import {

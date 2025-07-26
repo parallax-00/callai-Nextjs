@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import { EmptyState } from "./emptyState";
 
 export const CancelledState = () => {

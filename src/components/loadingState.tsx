@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import { Loader2Icon } from "lucide-react";
 

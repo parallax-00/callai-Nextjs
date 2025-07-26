@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import { LogInIcon, ToggleLeft } from "lucide-react";
 import {
   DefaultVideoPlaceholder,

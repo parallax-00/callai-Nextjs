@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import ResponsiveDialog from "@/components/responsiveDialog";
 import { AgentForm } from "./agentsForm";
 import { AgentGetOne } from "../../types";

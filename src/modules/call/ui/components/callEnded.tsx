@@ -1,13 +1,4 @@
-"use client";
-import { LogInIcon, ToggleLeft } from "lucide-react";
-import {
-  DefaultVideoPlaceholder,
-  StreamVideoParticipant,
-  ToggleAudioPreviewButton,
-  ToggleVideoPreviewButton,
-  useCallStateHooks,
-  VideoPreview,
-} from "@stream-io/video-react-sdk";
+// "use client";
 
 import { Button } from "@/components/ui/button";
 

@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import { LoaderIcon } from "lucide-react";
 
 import { authClient } from "@/lib/auth-client";
