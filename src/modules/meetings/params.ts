@@ -8,7 +8,6 @@ import {
 import { DEFAULT_PAGE } from "@/constants";
 
 import { MeetingStatus } from "./types";
-import { object } from "zod";
 
 export const filterSearchParams = {
   search: parseAsString.withDefault("").withOptions({ clearOnDefault: true }),

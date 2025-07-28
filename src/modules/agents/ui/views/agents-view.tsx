@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  defaultShouldDehydrateQuery,
   useSuspenseQuery,
 } from "@tanstack/react-query";
 

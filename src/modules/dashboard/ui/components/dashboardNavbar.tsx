@@ -11,8 +11,6 @@ import {
 } from "lucide-react";
 
 import DashboardCommand from "./dashboardCommand";
-import { optimizeImage } from "next/dist/server/image-optimizer";
-import { Donegal_One } from "next/font/google";
 
 const DashboardNavbar = () => {
   const { state, toggleSidebar, isMobile } = useSidebar();

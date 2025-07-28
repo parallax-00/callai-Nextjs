@@ -10,16 +10,16 @@ import {
   Sidebar,
   SidebarContent,
   SidebarGroupContent,
-  SidebarTrigger,
   SidebarHeader,
   SidebarFooter,
   SidebarMenuItem,
   SidebarMenuButton,
   SidebarMenu,
-  SidebarGroup,
 } from "@/components/ui/sidebar";
 import { cn } from "@/lib/utils";
+
 import { DashboardUserButton } from "./dashboardUserButton";
+import {DashboardTrial} from "./dashboardTrial";
 
 const firstSection = [
   {
@@ -102,10 +102,9 @@ export const DashboardSidebar = () => {
           </SidebarMenu>
         </SidebarGroupContent>
       </SidebarContent>
-          <SidebarFooter className="text-white ">
-              <DashboardUserButton>
-                  
-              </DashboardUserButton>
+      <SidebarFooter className="text-white ">
+        <DashboardTrial />
+        <DashboardUserButton />
       </SidebarFooter>
     </Sidebar>
   );

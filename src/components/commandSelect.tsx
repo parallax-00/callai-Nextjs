@@ -1,6 +1,6 @@
 // "use client";
 
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 
 import { ChevronsUpDownIcon } from "lucide-react";
 
@@ -13,9 +13,6 @@ import {
   CommandList,
   CommandResponsiveDialog,
 } from "@/components/ui/command";
-import { useSuspenseInfiniteQuery } from "@tanstack/react-query";
-import { OTPInputContext } from "input-otp";
-import { setNonce } from "react-resizable-panels";
 
 interface ICommand {
   options: Array<{
@@ -37,7 +34,6 @@ export const CommandSelect = ({
   onSearch,
   value,
   placeholder = "Select an option",
-  isSearchable,
   className,
 }: ICommand) => {
   const [open, setOpen] = useState(false);

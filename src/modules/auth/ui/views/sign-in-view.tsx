@@ -23,7 +23,6 @@ import {
 
 import Image from "next/image";
 import Link from "next/link";
-import { user } from "@/db/schema";
 
 const formSchema = z.object({
   email: z.string().email(),

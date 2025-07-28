@@ -14,10 +14,7 @@ import {
   StreamCall,
   StreamVideo,
   StreamVideoClient,
-  useStreamVideoClient,
 } from "@stream-io/video-react-sdk";
-import { user } from "@/db/schema";
-import { _includes } from "zod/v4/core";
 import CallUi from "./callUi";
 
 interface Props {

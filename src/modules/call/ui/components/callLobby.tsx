@@ -1,5 +1,5 @@
 // "use client";
-import { LogInIcon, ToggleLeft } from "lucide-react";
+import { LogInIcon } from "lucide-react";
 import {
   DefaultVideoPlaceholder,
   StreamVideoParticipant,

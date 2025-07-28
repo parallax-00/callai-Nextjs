@@ -17,8 +17,8 @@ import {
 } from "@/components/ui/drawer";
 
 interface IResponsiveDialog {
-  title: String;
-  description: String;
+  title: string;
+  description: string;
   children: React.ReactNode;
   open: boolean;
   onOpenChange: (open: boolean) => void;

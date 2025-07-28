@@ -3,7 +3,6 @@ import { botttsNeutral, initials } from "@dicebear/collection";
 
 import { cn } from "@/lib/utils";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { allTasks } from "better-auth/react";
 
 interface IGeneratedAvatar {
   seed: string;
@@ -17,15 +16,14 @@ export const GeneratedAvatar = ({
   variant,
 }: IGeneratedAvatar) => {
   let avatar;
-    if (variant == "initials") {
-       avatar = createAvatar(initials, {
+  if (variant == "initials") {
+    avatar = createAvatar(initials, {
       seed,
       fontWeight: 500,
       fontSize: 42,
     });
-} else {
+  } else {
     avatar = createAvatar(botttsNeutral, { seed });
-    
   }
 
   return (

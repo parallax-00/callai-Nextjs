@@ -7,7 +7,6 @@ import { CommandSelect } from "@/components/commandSelect";
 import { GeneratedAvatar } from "@/components/generatedAvatar";
 
 import { useMeetingsFilters } from "../../hooks/useMeetingsFilter";
-import { TRPCError } from "@trpc/server";
 
 export const AgentIdFilter = () => {
   const [filters, setFilters] = useMeetingsFilters();

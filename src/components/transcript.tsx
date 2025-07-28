@@ -9,7 +9,6 @@ import { useTRPC } from "@/trpc/client";
 import { generateAvatarUri } from "@/lib/avatar";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
-import { useTrackElementVisibility } from "@stream-io/video-react-sdk";
 
 interface Props {
   meetingId: string;
